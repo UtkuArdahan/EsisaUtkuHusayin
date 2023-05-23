@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.kurumsalAlici.kurumsalAliciHesabim.KurumsalAliciHesabimActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="356dp"
+                    android:layout_height="160dp"
+                    android:scaleType="center"
+                    android:src="@drawable/baseline_profilephoto_150"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_shopping_basket_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.492"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_favorite_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_assessment_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_settings_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_location_on_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_productcomparison_arrows_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.492"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+                    app:srcCompat="@drawable/baseline_customerservice_100" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitEnd"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+                    app:srcCompat="@drawable/baseline_exit_to_app_100" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="85dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="Ad Soyad"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButton4"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton4"
+                    app:layout_constraintTop_toTopOf="@+id/imageButton4" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Siparişlerim"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton7"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButton7"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="200dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Değerlendirmelerim"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton9"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButton9"
+                    app:layout_constraintHorizontal_bias="0.635"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton9"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Destek"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButton12"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton12" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Çıkış yap"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton3"
+                    app:layout_constraintTop_toTopOf="@+id/imageButton3" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Ayarlar"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton10"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButton10"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton10"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Adreslerim"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton11"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButton11"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton11"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Favorilerim"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton8"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButton8"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton8"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="Ürün Karşılaştırmaları"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton12"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButton12"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton12"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

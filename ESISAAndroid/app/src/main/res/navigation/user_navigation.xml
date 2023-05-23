@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_navigation"
+    app:startDestination="@id/productListFragment">
+
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.example.esisapp.ui.bireyselAlici.bireyselAliciUrunListeleme.ProductListFragment"
+        android:label="fragment_product_list"
+        tools:layout="@layout/fragment_product_list" >
+        <action
+            android:id="@+id/action_productListFragment_to_productAddFragment"
+            app:destination="@id/productAddFragment" />
+        <action
+            android:id="@+id/action_productListFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productAddFragment"
+        android:name="com.example.esisapp.ui.satici.saticiUrunEkleme.ProductAddFragment"
+        android:label="fragment_product_add"
+        tools:layout="@layout/fragment_product_add" />
+    <fragment
+        android:id="@+id/productDetailsFragment"
+        android:name="com.example.esisapp.ui.satici.saticiUrunDetaylari.ProductDetailsFragment"
+        android:label="fragment_product_details"
+        tools:layout="@layout/fragment_product_details" >
+        <action
+            android:id="@+id/action_productDetailsFragment_to_productUpdatesFragment"
+            app:destination="@id/productUpdatesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productUpdatesFragment"
+        android:name="com.example.esisapp.ui.satici.saticiUrunGuncelleme.ProductUpdatesFragment"
+        android:label="fragment_product_updates"
+        tools:layout="@layout/fragment_satici_urunguncelleme" />
+</navigation>

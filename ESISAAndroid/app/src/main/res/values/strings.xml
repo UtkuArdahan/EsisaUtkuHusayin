@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">esisapp</string>
+    <string name="elektronik">Elektronik</string>
+    <string name="modagiyim">Modagiyim</string>
+    <string name="beyazesya">Beyazeşya</string>
+    <string name="kitap">Kitap</string>
+    <string name="kozmetik">Kozmetik</string>
+    <string name="oyuncak">Oyuncak</string>
+    <string name="ayakkabı">Ayakkabi</string>
+    <string name="kucukevaletleri">Kucukevaletleri</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ex_no_exception">İnternet bağlantınızı kontrol edeniz.</string>
+    <string name="ex_common_error">Bir sorun meydana geldi. Lütfen daha sonra tekrar deneyiniz.</string>
+</resources>
